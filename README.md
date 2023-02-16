@@ -10,6 +10,11 @@ Run npm install to load node_modules
 npm install
 ```
 
+Running the server
+
+```bash
+npm run api
+```
 ## Usage
 
 Edit mockserver/fileReader.js file to your desired file location
