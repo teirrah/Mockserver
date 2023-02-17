@@ -1,7 +1,6 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
 const res = require('./fileReader.js');
-console.log("response data ",res);
 const router = jsonServer.router(res);
 const middlewares = jsonServer.defaults();
 const cors = require("cors");
